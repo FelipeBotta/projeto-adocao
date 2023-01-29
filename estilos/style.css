@@ -13,18 +13,34 @@ header{
     background-color: #EB0028;
     color: white;
     width: 100vw;
-    height: 150px;
+    height: 155px;
     margin: 0px;
     padding: 0px;
-    border-radius: 7px;
+    border-radius: 5px;
 }
 
 header > div#logo{
-    background-position: 50% 50%;
+    display: block;
 }
 
 header > h1{
     color: black;
+    text-align: top;
     
+}
+
+nav{
+    width: 100vw;
+    height: 50px;
+    background-color: #cf0224;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    
+}
+
+nav > a{
+    text-decoration: none;
+    color: white;
 }
 
