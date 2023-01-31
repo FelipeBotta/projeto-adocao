@@ -41,6 +41,12 @@
         display: inline-block;
     }
 
+    picture.ajuda{
+        display: flex;
+        justify-content: center;
+        background-color: #EB0028;
+    }
+
 
 
     
