@@ -12,6 +12,7 @@
 @media screen and (min-width: 768px){
 
     header{
+        width: 100vw;
         justify-content: center;
         margin-top: 50px;
         display: flex;
@@ -41,10 +42,37 @@
         display: inline-block;
     }
 
+    picture.banner{
+        display: flex;
+        
+    }
+
+
     picture.ajuda{
         display: flex;
         justify-content: center;
         background-color: #EB0028;
+    }
+
+    section.botoes{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    section.botoes > img{
+        display: flex;
+        border-radius: 50%;
+        justify-content: flex-start;
+        align-items: flex-start ;
+        flex-direction: row;
+    }
+
+    section.botoes > p{
+        display: flex;
+        font-size: 14px;
+        text-align: justify;
     }
 
 

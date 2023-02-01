@@ -73,9 +73,16 @@ menu > ul > li a:hover{
     background-color: #c70021;
 }
 
-picture.ajuda{
-    
+picture.banner{
+    display: flex;
 }
+
+picture.ajuda{
+    display: flex;
+    justify-content: center;
+    background-color: #EB0028;
+}
+
 
 article{
     font-family: Arial, Helvetica, sans-serif;
